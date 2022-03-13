@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a833e2b.css",
-    "main.js": "/static/js/main.1239b468.js",
-    "index.html": "/index.html",
-    "main.1a833e2b.css.map": "/static/css/main.1a833e2b.css.map",
-    "main.1239b468.js.map": "/static/js/main.1239b468.js.map"
+    "main.css": "/floating-tailwind-field/static/css/main.1a833e2b.css",
+    "main.js": "/floating-tailwind-field/static/js/main.1239b468.js",
+    "index.html": "/floating-tailwind-field/index.html",
+    "main.1a833e2b.css.map": "/floating-tailwind-field/static/css/main.1a833e2b.css.map",
+    "main.1239b468.js.map": "/floating-tailwind-field/static/js/main.1239b468.js.map"
   },
   "entrypoints": [
     "static/css/main.1a833e2b.css",
