@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+<img src="./assets/demo.gif" src="demo">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Floating label Field with Tailwindcss
 
-## Available Scripts
+This is a react component input with floating lable style
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+```
+import { useState } from "react";
+import Input from "./component/input";
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+const App = () => {
+  const [email, setEmail] = useState("");
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  return (
+        <form className="pt-5">
+            <Input
+                label="Email"
+                name="email"
+                type="email"
+                value={email}
+                onChange={(v) => setEmail(v.target.value)}
+            />
+        </form>
+  )
+}
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Security Vulnerabilities
 
-### `npm run eject`
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   [k90mirzaei](https://github.com/k90mirzaei)
+-   [All Contributors](../../contributors)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Learn More
+## Support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
